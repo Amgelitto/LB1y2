@@ -1,41 +1,95 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lo natural es mucho bonito (:</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Sobre Mí</title>
 </head>
 <body>
+    <h1>Sobre Mí</h1>
+    <h2>Introducción</h2>
+    <p>¡Hola! Mi nombre es Miguel Angel Florez Ruedas. Tengo 20 años y me apasiona la programación, los videojuegos, el modelado 3D y el marketing de redes. </p>
+    
+    <h2>Hoja de Vida</h2>
+    <p>Estuve estudiando en la UFPSO, pero debido a la falta de recursos económicos, no pude continuar mis estudios. Me gusta mucho leer y he trabajado como asesor de ventas telefónicas. Mis intereses personales incluyen explorar nuevas tecnologías y continuar aprendiendo sobre mis áreas de interés.</p>
+    
+    <h2>Intereses y Hobbies</h2>
+    <p>En mi tiempo libre, disfruto de:</p>
+    <ul>
+        <li>Programación</li>
+        <li>Videojuegos</li>
+        <li>Modelado 3D</li>
+        <li>Marketing de redes</li>
+        <li>Lectura</li>
+    </ul>
 
-    <header>
-        <h1>Explorando la Naturaleza</h1>
-    </header>
+    <h2>Contacto</h2>
+    <img src="yo.jpg" alt="" style="width: 250px;">
+    <p>Si deseas contactarme, puedes hacerlo <a href="https://wa.me/573216753349">aquí</a>.</p>
 
-    <nav>
-        <a href="https://almasaventureras.com/wp-content/uploads/2022/03/11.jpg">Bosques</a>
-        <a href="https://upload.wikimedia.org/wikipedia/commons/c/ce/Pico_Cristobal_Colon.jpg">Montañas</a>
-        <a href="https://www.culturarecreacionydeporte.gov.co/sites/default/files/styles/870_x_540/public/2022-08/turtle.jpg?itok=SLwCbGgC">Océanos</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
-
-    <!-- uso de identificadores para hace más facil aplicar estilos más adelante-->
-    <main>
-        <div id="bosques" class="contenedor">
-            <h2>Bosques</h2>
-            <p>Los bosques son mundos llenos de vida y misterio, donde los rayos de sol se filtran entre las hojas creando sombras que parecen bailar. Los árboles, altos y firmes, susurran con el viento, mientras el suelo es suave y cubierto de hojas caídas y musgo. En estos lugares, el aire es fresco y huele a tierra húmeda y naturaleza, y los sonidos de aves y pequeños animales se mezclan para crear una melodía propia del bosque. Es un refugio de paz y serenidad, un espacio donde todo parece fluir a su propio ritmo.</p>
-            <img src="https://c4.wallpaperflare.com/wallpaper/179/502/515/bosque-naturaleza-paisaje-wallpaper-preview.jpg" alt="Imagen de un bosque verde y frondoso" width="100%">
-        </div>
-        <div id="montañas" class="contenedor">
-            <h2>Montañas</h2>
-            <p>Las montañas son imponentes guardianas de la tierra, con sus cumbres que se alzan hacia el cielo como si quisieran tocarlo. Su superficie rocosa y escarpada muestra la fuerza de la naturaleza, mientras que sus laderas están cubiertas de vegetación o nieve, según la estación. Al subirlas, el aire se vuelve cada vez más frío y puro, permitiendo ver paisajes que quitan el aliento.</p>
-            <img src="https://plus.unsplash.com/premium_photo-1675315343167-0414307c9182?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bW9udGElQzMlQjFhJTIwNGt8ZW58MHx8MHx8fDA%3D" alt="Imagen de una montaña nevada" width="100%">
-        </div>
-    </main>
-
-    <footer>
-        <p>Contacto: miguel.florez.ttc.311@unilibre.edu.co | Teléfono: 3216753349</p>
-    </footer>
-
+    <div>
+        <h2>Tabla pendientes.</h2>
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Hora/Día</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Sábado</th>
+                    <th>Domingo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mañana</td>
+                    <td>Estudiar programación</td>
+                    <td>Hacer limpieza</td>
+                    <td>Compras del mercado</td>
+                    <td>Estudiar programación</td>
+                    <td>Programación</td>
+                    <td>Lavar la ropa</td>
+                    <td>Lectura</td>
+                </tr>
+                <tr>
+                    <td>Tarde</td>
+                    <td>Terminar proyecto de modelado 3D</td>
+                    <td>Lectura</td>
+                    <td>Pasear al perro</td>
+                    <td>Modelado 3D</td>
+                    <td>Hacer  limpieza</td>
+                    <td>Jardinería</td>
+                    <td>Videojuegos</td>
+                </tr>
+                <tr>
+                    <td>Noche</td>
+                    <td>Videojuegos</td>
+                    <td>Cocinar la cena</td>
+                    <td>Lectura</td>
+                    <td>Modelado 3D</td>
+                    <td>Programación</td>
+                    <td>Ver una película</td>
+                    <td>Lectura</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <br><h2>Formulario Contacto</h2><br>
+        <form action="/submit" method="post">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+        
+            <label for="reason">Motivo del contacto:</label><br>
+            <input type="text" id="reason" name="reason"><br><br>
+        
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+        
+            <input type="submit" value="Enviar">
+        </form>
+        
+    </div>
 </body>
 </html>
