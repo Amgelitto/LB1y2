@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333; /* Aquí usamos color gris oscuro */
+}
+
+#titulo-principal {
+    color: #ff6961; /* Aquí usamos color rojo pastel */
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #87CEEB; /* Aquí usamos color azul pastel */
+}
+
+p, ul, form {
+    margin-left: 20px;
+}
+
+#introduccion-texto, #hoja-de-vida-texto, #intereses-y-hobbies-texto, #contacto-texto {
+    background-color: #ffebcd; /* Aquí usamos color crema pastel */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#lista-intereses {
+    list-style-type: square;
+}
+
+#lista-intereses li {
+    background-color: #87CEEB; /* Aquí usamos color azul pastel */
+    padding: 5px;
+    margin: 3px 0;
+    border-radius: 3px;
+}
+
+#imagen-contacto {
+    display: block;
+    margin: 0 auto;
+}
+
+#tabla-pendientes table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#tabla-pendientes th, #tabla-pendientes td {
+    padding: 10px;
+    text-align: center;
+}
+
+#tabla-pendientes th {
+    background-color: #ff6961; /* Aquí usamos color rojo pastel */
+    color: white;
+}
+
+#tabla-pendientes td {
+    background-color: #87CEEB; /* Aquí usamos color azul pastel */
+    color: #333; /* Aquí usamos color gris oscuro */
+}
+
+#formulario-contacto {
+    margin: 20px;
+    padding: 10px;
+    background-color: #E6E6FA; /* Aquí usamos color lavanda pastel */
+    border-radius: 5px;
+}
+
+#formulario-contacto label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#formulario-contacto input[type="text"],
+#formulario-contacto input[type="email"] {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#formulario-contacto input[type="submit"] {
+    background-color: #ff6961; /* Aquí usamos color rojo pastel */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#formulario-contacto input[type="submit"]:hover {
+    background-color: #ff4c4c; /* Aquí usamos color rojo más oscuro */
+}
