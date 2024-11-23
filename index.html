@@ -2,32 +2,32 @@
 <html>
 <head>
     <title>Sobre Mí</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1>Sobre Mí</h1>
-    <h2>Introducción</h2>
-    <p>¡Hola! Mi nombre es Miguel Angel Florez Ruedas. Tengo 20 años y me apasiona la programación, los videojuegos, el modelado 3D y el marketing de redes. </p>
+    <h1 id="titulo-principal">Sobre Mí</h1>
+    <h2 id="introduccion">Introducción</h2>
+    <p id="introduccion-texto">¡Hola! Mi nombre es Miguel Angel Florez Ruedas. Tengo 20 años y me apasiona la programación, los videojuegos, el modelado 3D y el marketing de redes. </p>
     
-    <h2>Hoja de Vida</h2>
-    <p>Estuve estudiando en la UFPSO, pero debido a la falta de recursos económicos, no pude continuar mis estudios. Me gusta mucho leer y he trabajado como asesor de ventas telefónicas. Mis intereses personales incluyen explorar nuevas tecnologías y continuar aprendiendo sobre mis áreas de interés.</p>
+    <h2 id="hoja-de-vida">Hoja de Vida</h2>
+    <p id="hoja-de-vida-texto">Estuve estudiando en la UFPSO, pero debido a la falta de recursos económicos, no pude continuar mis estudios. Me gusta mucho leer y he trabajado como asesor de ventas telefónicas. Mis intereses personales incluyen explorar nuevas tecnologías y continuar aprendiendo sobre mis áreas de interés.</p>
     
-    <h2>Intereses y Hobbies</h2>
-    <p>En mi tiempo libre, disfruto de:</p>
-    <ul>
-        <li>Programación</li>
-        <li>Videojuegos</li>
-        <li>Modelado 3D</li>
-        <li>Marketing de redes</li>
-        <li>Lectura</li>
+    <h2 id="intereses-y-hobbies">Intereses y Hobbies</h2>
+    <p id="intereses-y-hobbies-texto">En mi tiempo libre, disfruto de:</p>
+    <ul id="lista-intereses">
+        <li id="interes-programacion">Programación</li>
+        <li id="interes-videojuegos">Videojuegos</li>
+        <li id="interes-modelado3d">Modelado 3D</li>
+        <li id="interes-marketing">Marketing de redes</li>
+        <li id="interes-lectura">Lectura</li>
     </ul>
 
-    <h2>Contacto</h2>
-    <img src="yo.jpg" alt="" style="width: 250px;">
-    <p>Si deseas contactarme, puedes hacerlo <a href="https://wa.me/573216753349">aquí</a>.</p>
+    <h2 id="contacto">Contacto</h2>
+    <img id="imagen-contacto" src="yo.jpg" alt="" style="width: 250px;">
+    <p id="contacto-texto">Si deseas contactarme, puedes hacerlo <a href="https://wa.me/573216753349">aquí</a>.</p>
 
-    <div>
-        <h2>Tabla pendientes.</h2>
-        
+    <div id="tabla-pendientes">
+        <h2>Tabla de Pendientes</h2>
         <table border="1">
             <thead>
                 <tr>
@@ -58,7 +58,7 @@
                     <td>Lectura</td>
                     <td>Pasear al perro</td>
                     <td>Modelado 3D</td>
-                    <td>Hacer  limpieza</td>
+                    <td>Hacer limpieza</td>
                     <td>Jardinería</td>
                     <td>Videojuegos</td>
                 </tr>
@@ -75,8 +75,9 @@
             </tbody>
         </table>
     </div>
-    <div>
-        <br><h2>Formulario Contacto</h2><br>
+    
+    <div id="formulario-contacto">
+        <br><h2>Formulario de Contacto</h2><br>
         <form action="/submit" method="post">
             <label for="name">Nombre:</label><br>
             <input type="text" id="name" name="name"><br><br>
@@ -89,7 +90,6 @@
         
             <input type="submit" value="Enviar">
         </form>
-        
     </div>
 </body>
 </html>
